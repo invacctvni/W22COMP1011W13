@@ -37,4 +37,8 @@ public class Car {
     public ArrayList<String> getTypes() {
         return types;
     }
+
+    public String toString() {
+        return String.format("%d-%s %s %.2f", id, make, model, price);
+    }
 }
